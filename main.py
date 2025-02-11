@@ -1,4 +1,4 @@
-putin = input()
+putin =input()
 trigrams = ("tes", "123")
 greylist = []
 whitelist = []
