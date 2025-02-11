@@ -1,4 +1,9 @@
-putin = input().encode('latin1').decode('utf-8', errors='ignore')
+try:
+    putin = input()
+except UnicodeDecodeError as e:
+    print(f"Error: {e}")
+    print(f"Input: {sys.stdin.encoding}")
+    print(f"Locale: {locale.getdefaultlocale()}")
 
 trigrams = ("tes", "123")
 greylist = []
