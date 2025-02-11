@@ -1,4 +1,5 @@
-putin =input()
+putin = input().encode('latin1').decode('utf-8', errors='ignore')
+
 trigrams = ("tes", "123")
 greylist = []
 whitelist = []
