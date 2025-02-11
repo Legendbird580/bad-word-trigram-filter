@@ -1,8 +1,4 @@
-import sys
-
-putin = sys.stdin.buffer.readline()
-print(putin)
-
+putin="test"
 trigrams = ("tes", "123")
 greylist = []
 whitelist = []
